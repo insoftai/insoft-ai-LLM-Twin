@@ -8,7 +8,7 @@ from crawlers import GithubCrawler, LinkedInCrawler, MediumCrawler
 from db.documents import UserDocument
 from dispatcher import CrawlerDispatcher
 
-logger = Logger(service="decodingml/crawler")
+logger = Logger(service="llm-twin/crawler")
 
 _dispatcher = CrawlerDispatcher()
 _dispatcher.register("medium", MediumCrawler)

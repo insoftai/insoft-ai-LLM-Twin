@@ -1,6 +1,10 @@
 import re
 
+from aws_lambda_powertools import Logger
 from crawlers.base import BaseCrawler
+from crawlers.custom_article import CustomArticleCrawler
+
+logger = Logger(service="llm-twin/crawler")
 
 
 class CrawlerDispatcher:
@@ -15,4 +19,8 @@ class CrawlerDispatcher:
             if re.match(pattern, url):
                 return crawler()
         else:
-            raise ValueError("No crawler found for the provided link")
+            logger.warning(
+                f"No crawler found for {url}. Defaulting to CustomArticleCrawler."
+            )
+
+            return CustomArticleCrawler()

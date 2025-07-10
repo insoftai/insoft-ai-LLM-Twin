@@ -7,7 +7,7 @@ build_env:
     - HUGGINGFACE_ACCESS_TOKEN=
     - COMET_API_KEY=
     - COMET_WORKSPACE=
-    - COMET_PROJECT=llm-twin-course
+    - COMET_PROJECT=llm-twin
     no_cache: false
     params: []
     push: true 
