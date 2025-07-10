@@ -10,8 +10,6 @@
 
 This project demonstrates how to design, build, and deploy a production-ready LLM-powered AI twin — an AI system that emulates a person's writing style and knowledge using vector databases, fine-tuned models, and scalable inference.
 
-It covers the complete engineering lifecycle using real-world tools and modern MLOps strategies. No isolated scripts or notebooks — this is a full-scale, modular backend system built with microservices.
-
 ## 🧠 System Capabilities
 
 - Crawl personal digital data from platforms like Medium, Substack, and GitHub.
@@ -50,10 +48,6 @@ The system is split into four Python microservices:
 - Optimize prompts with advanced RAG logic.
 - Prompt tracing + evaluation with Opik.
 - Bonus: optimize RAG queries using Superlinked.
-
-<p align="center">
-  <img src="media/ui-example.png" alt="Gradio UI">
-</p>
 
 ## 🔧 Tools Used
 
