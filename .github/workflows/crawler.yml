@@ -52,6 +52,7 @@ jobs:
               --image-uri $ECR_REPOSITORY/crawler:$PROJECT_VERSION
           echo "Successfully updated lambda"
         env:
+        
           AWS_REGION: ${{ secrets.AWS_REGION }}
           ECR_REPOSITORY: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com
           PROJECT_VERSION: ${{ github.sha }}
