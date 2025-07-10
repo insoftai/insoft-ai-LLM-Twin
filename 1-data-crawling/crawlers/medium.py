@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from crawlers.base import BaseAbstractCrawler
 from db.documents import ArticleDocument
 
-logger = Logger(service="decodingml/crawler")
+logger = Logger(service="medium/crawler")
 
 
 class MediumCrawler(BaseAbstractCrawler):

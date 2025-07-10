@@ -11,7 +11,7 @@ from db.documents import PostDocument
 from crawlers.base import BaseAbstractCrawler
 from config import settings
 
-logger = Logger(service="decodingml/crawler")
+logger = Logger(service="linkedin/crawler")
 
 
 class LinkedInCrawler(BaseAbstractCrawler):

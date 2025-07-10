@@ -8,7 +8,7 @@ from aws_lambda_powertools import Logger
 from crawlers.base import BaseCrawler
 from db.documents import RepositoryDocument
 
-logger = Logger(service="llm-twin-course/crawler")
+logger = Logger(service="llm-twin/crawler")
 
 
 class GithubCrawler(BaseCrawler):
