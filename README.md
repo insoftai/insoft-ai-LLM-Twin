@@ -8,7 +8,7 @@
 
 ## 🎯 Overview
 
-This project demonstrates how to design, build, and deploy a production-ready LLM-powered AI twin — an AI system that emulates a person's writing style and knowledge using vector databases, fine-tuned models, and scalable inference.
+This project is a LLM-powered AI twin — an AI system that emulates a person's writing style and knowledge using vector databases, fine-tuned models, and scalable inference.
 
 ## 🧠 System Capabilities
 
