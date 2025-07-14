@@ -1,11 +1,3 @@
-<div align="center">
-    <h2>LLM Twin: Building a Production-Ready AI Replica</h2>
-    <h1>End-to-End System for Deploying a Custom LLM with RAG</h1>
-    <h3>From data ingestion to scalable deployment with LLMOps best practices.</h3>
-</div>
-
-</br>
-
 ## 🎯 Overview
 
 This project is a LLM-powered AI twin — an AI system that emulates a person's writing style and knowledge using vector databases, fine-tuned models, and scalable inference.
